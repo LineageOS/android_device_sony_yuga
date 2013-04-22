@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//3MQ\u003d",
+        "filename": "overlay/device/sony/common/XperiaSettings/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 3559
+      },
+      "writtenOn": "2013-04-22T21:12:30Z",
+      "side": 1,
+      "message": "should be 19 and -12 \n\nif it is from 12 to 31 (as it is on tsubasa)",
+      "revId": "8693580695199c0f02287e24d687c54f12e9693b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
