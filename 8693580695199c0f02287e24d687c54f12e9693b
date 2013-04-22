@@ -16,6 +16,24 @@
       "revId": "8693580695199c0f02287e24d687c54f12e9693b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//3ME\u003d",
+        "filename": "overlay/device/sony/common/XperiaSettings/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 523
+      },
+      "writtenOn": "2013-04-22T21:15:46Z",
+      "side": 1,
+      "message": "The vibrator on fusion3 starts working at around 2 Volts.\nEverything below does nothing.\nSo our valid range is 20-31.",
+      "parentUuid": "AAAAen//3MQ\u003d",
+      "revId": "8693580695199c0f02287e24d687c54f12e9693b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
