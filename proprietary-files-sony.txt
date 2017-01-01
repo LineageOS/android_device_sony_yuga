@@ -1,0 +1,43 @@
+# Apps Firmware
+etc/firmware/apps.mbn
+
+# Audio
+lib/libaudcal.so
+
+# Camera
+etc/flashled_calc_parameters.cfg
+lib/libcald_server.so
+lib/liboemcamera.so
+
+# Camera Firmware
+vendor/camera/LGI02BN0_IMX132.dat
+vendor/camera/SEM02BN0_IMX132.dat
+vendor/camera/flash.dat
+vendor/camera/product.dat
+
+# DSPS Firmware
+etc/firmware/dsps.b00
+etc/firmware/dsps.b01
+etc/firmware/dsps.b02
+etc/firmware/dsps.b03
+etc/firmware/dsps.b04
+etc/firmware/dsps.b05
+etc/firmware/dsps.mdt
+etc/firmware/dsp1.mbn
+etc/firmware/dsp2.mbn
+etc/firmware/dsp3.mbn
+
+# NFC
+lib/hw/nfc.msm8960.so
+
+# Sensors
+bin/illumination_service
+
+# TA
+bin/updatemiscta
+
+# Touchscreen firmware
+etc/firmware/touch_module_id_0x36.img
+etc/firmware/touch_module_id_0x37.img
+etc/firmware/touch_module_id_0x41.img
+etc/firmware/touch_module_id_0x42.img
