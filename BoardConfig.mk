@@ -30,6 +30,11 @@ TARGET_KERNEL_CONFIG := fusion3_yuga_defconfig
 # Healthd
 BACKLIGHT_PATH := /sys/class/leds/lm3533-lcd-bl/brightness
 
+# TWRP
+TW_THEME := portrait_hdpi
+TW_BRIGHTNESS_PATH := /sys/class/leds/lm3533-lcd-bl/brightness
+BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
+
 # Partition sizes
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12828261888
 
