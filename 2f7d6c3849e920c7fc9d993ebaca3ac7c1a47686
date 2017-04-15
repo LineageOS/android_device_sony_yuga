@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_059ef256",
+        "filename": "board/power.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 9392
+      },
+      "writtenOn": "2017-04-15T10:15:02Z",
+      "side": 1,
+      "message": "This file really shouldn\u0027t be named \"power.mk\" - healthd or charger would be more appropriate (as the comment suggests)",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 58
+      },
+      "revId": "2f7d6c3849e920c7fc9d993ebaca3ac7c1a47686",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
