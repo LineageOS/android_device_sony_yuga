@@ -30,9 +30,6 @@ etc/firmware/dsp3.mbn
 # NFC
 lib/hw/nfc.msm8960.so
 
-# Sensors
-bin/illumination_service
-
 # TA
 bin/updatemiscta
 
