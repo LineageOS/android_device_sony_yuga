@@ -37,7 +37,6 @@
     <ctl name="DEC9 Volume" value="84" />
     <ctl name="DEC10 Volume" value="84" />
     <ctl name="MICBIAS1 CAPLESS Switch" value="1" />
-    <ctl name="MICBIAS3 CAPLESS Switch" value="0" />
     <ctl name="HDMI_RX Port Mixer SLIM_3_TX" value="0" />
     <ctl name="SLIMBUS_3_RX Port Mixer INTERNAL_BT_SCO_RX" value="0" />
     <ctl name="SLIMBUS_0_RX Port Mixer INTERNAL_FM_TX" value="0" />
@@ -106,7 +105,6 @@
     <ctl name="RX1 MIX1 INP2" value="ZERO" />
     <ctl name="RX1 MIX1 INP1" value="ZERO" />
     <ctl name="HPHL DAC Switch" value="0" />
-    <ctl name="HPHR DAC Switch" value="0" />
     <ctl name="DAC1 Switch" value="0" />
     <ctl name="SLIM_0_RX Channels" value="One" />
     <ctl name="SLIM_0_TX Channels" value="One" />
@@ -120,7 +118,7 @@
     <ctl name="INTERNAL_BT_SCO_RX Audio Mixer MultiMedia2" value="0" />
     <ctl name="INTERNAL_BT_SCO_RX Audio Mixer MultiMedia5" value="0" />
     <ctl name="INTERNAL_BT_SCO_RX_Voice Mixer Voip" value="0" />
-    <ctl name="Internal BTSCO SampleRate" value="8000" />
+    <ctl name="SLIM_1 SampleRate" value="8000" />
     <ctl name="INTERNAL_FM_RX Audio Mixer MultiMedia1" value="0" />
     <ctl name="INTERNAL_FM_RX Audio Mixer MultiMedia5" value="0" />
     <ctl name="Internal FM RX Volume" value="0" />
@@ -147,7 +145,7 @@
     </path>
 
     <path name="deep-buffer-playback bt-sco-wb">
-        <ctl name="Internal BTSCO SampleRate" value="16000" />
+        <ctl name="SLIM_1 SampleRate" value="16000" />
         <path name="deep-buffer-playback bt-sco" />
     </path>
 
@@ -168,7 +166,7 @@
     </path>
 
     <path name="low-latency-playback bt-sco-wb">
-        <ctl name="Internal BTSCO SampleRate" value="16000" />
+        <ctl name="SLIM_1 SampleRate" value="16000" />
         <path name="low-latency-playback bt-sco" />
     </path>
 
@@ -194,7 +192,7 @@
     </path>
 
     <path name="audio-record bt-sco-wb">
-        <ctl name="Internal BTSCO SampleRate" value="16000" />
+        <ctl name="SLIM_1 SampleRate" value="16000" />
         <path name="audio-record bt-sco" />
     </path>
 
@@ -219,7 +217,7 @@
     </path>
 
     <path name="low-latency-record bt-sco-wb">
-        <ctl name="Internal BTSCO SampleRate" value="16000" />
+        <ctl name="SLIM_1 SampleRate" value="16000" />
         <path name="low-latency-record bt-sco" />
     </path>
 
@@ -248,7 +246,8 @@
     </path>
 
     <path name="voice-call bt-sco-wb">
-        <ctl name="Internal BTSCO SampleRate" value="16000" />
+        <ctl name="SLIM_1 SampleRate" value="16000" />
+        <ctl name="SLIM_1_TX Channels" value="One" />
         <path name="voice-call bt-sco" />
     </path>
 
@@ -329,7 +328,6 @@
         <ctl name="RX2 MIX1 INP1" value="RX2" />
         <ctl name="RX2 MIX1 INP2" value="RX7" />
         <ctl name="HPHL DAC Switch" value="1" />
-        <ctl name="HPHR DAC Switch" value="1" />
         <ctl name="HPHL Volume" value="9" />
         <ctl name="HPHR Volume" value="9" />
         <ctl name="SLIM TX3 MUX" value="RMIX1" />
@@ -433,7 +431,6 @@
         <ctl name="SLIM TX8 MUX" value="DEC9" />
         <ctl name="DEC9 MUX" value="DMIC4" />
         <ctl name="MICBIAS1 CAPLESS Switch" value="1" />
-        <ctl name="MICBIAS3 CAPLESS Switch" value="1" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
     </path>
 
