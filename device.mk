@@ -16,7 +16,7 @@
 #
 
 # Screen density
-PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_CONFIG := large
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi 420dpi 400dpi 360dpi xhdpi 280dpi hdpi tvdpi mdpi ldpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
