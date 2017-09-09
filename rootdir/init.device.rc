@@ -24,9 +24,6 @@ on boot
     # Set default brightness for boot
     write /sys/class/leds/lm3533-lcd-bl/brightness 127
 
-    # Vibrator
-    chown system system /sys/class/timed_output/vibrator/level
-
     # LM356x/cameralight
     chown system camera /sys/devices/i2c-0/0-0053/torch_enable
     chmod 660 /sys/devices/i2c-0/0-0053/torch_enable
